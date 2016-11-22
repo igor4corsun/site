@@ -1,0 +1,537 @@
+﻿/*   
+Theme Name: Bal olll
+Theme URI: http://themes/
+Description: Бал в Днепропетровсе
+Author: Оля
+Author URI: http://themes/
+Version: 1.0
+*/
+body{
+	margin:0px;
+	background-color: #FFFAE7;
+	background-image: url(images/bgimage.png);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+}
+header{
+	min-height: 160px;
+	background-color: rgba(92, 98, 100, 0.77);
+	box-shadow: 0px 4px 14px #000000;
+}
+.head{
+	max-width:1200px;
+	margin: auto;
+}
+.head .logo{
+	width: 120px;
+	float: left;
+}
+.head .zag_h1{
+	color: #c9c19a;
+	text-decoration: none;
+	margin-top: 0px;
+}
+.head .phone{
+	margin-left: 80px;
+	width:500px;
+	float: left;
+}
+.phone img{
+	position: relative;
+	top:6px;
+	margin-left: 10px;
+}
+.phone_span{
+	font-size: 20px;
+	font-weight: bolder;
+	margin: 10px;
+}
+.search{
+	float: right;
+	margin: 20px 20px 0px 0px;
+}
+.search label{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.search_invalid{
+	text-align: center;
+	font-size: 30px;
+}
+.search .form_search input{
+	height: 23px;
+	border-radius: 10px;
+	border: none;
+	background-color: #E3E3E3;
+	box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.5);
+	outline:none;
+	padding: 3px;
+}
+.menu_head{
+	min-height: 48px;
+	border-radius: 7px;
+	margin: 15px;
+	box-shadow: 4px 0px 7px rgba(0, 0, 0, 0.35);
+	clear: both;
+	background: linear-gradient(right, #ac9f8c 0%, #F0F7F7 50%, #ac9f8c 100%);
+	background: -webkit-linear-gradient(right, #ac9f8c 0%, #F0F7F7 50%, #ac9f8c 100%);
+	background: -o-linear-gradient(right, #ac9f8c 0%, #F0F7F7 50%, #ac9f8c 100%);
+	background: -ms-linear-gradient(right, #ac9f8c 0%, #F0F7F7 50%, #ac9f8c 100%);
+	background: -moz-linear-gradient(right, #ac9f8c 0%, #F0F7F7 50%, #ac9f8c 100%);
+}
+.menu_head ul{
+		padding-left: 0px;
+	}
+.menu_head li{
+	color: #5c4e72;
+	font-weight: bolder;
+	height:45px;
+	font-size: 20px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.43);
+	display: inline-block;
+	padding:0px 12px;
+	margin-top: 5px;
+
+}
+.menu_head li:hover{
+	box-shadow: inset 0px 3px 7px rgba(0, 0, 0, 0.43);
+	background-color: #FFFAE7;
+	height:45px;
+	border-radius: 4px 4px 0px 0px;
+	margin-top: 5px;
+	color: #5c4e72;
+	font-weight: bolder;
+	font-size: 20px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.43);
+	display: inline-block;
+	padding:0px 12px;
+}
+.punct{
+	cursor: pointer;
+}
+.menu_head li a{
+	position: relative;
+    top: 8px;
+	padding-top: 6px;
+	margin: 5px;
+	text-decoration: none;
+}
+
+
+
+
+
+.section{
+	max-width:1200px;
+	margin: auto;
+}
+.content{
+	width:69%;
+	max-width:69%;
+	float: left;
+}
+.sidebar{
+	width: 31%;
+	max-width: 325px;
+	float: right;
+}
+.content_single{
+	padding: 2%;
+	margin:40px 20px;
+	background: #facd74;
+	box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.75);
+}
+.content_single_h3{
+    background: url(images/bg_h3.png) no-repeat;
+    background-size: 100% 100%;
+    min-width: 99%;
+    min-height: 77px;
+    margin-bottom: -36px;
+    padding: 12px 10%;
+    position: relative;
+    right: 10%;
+    bottom: 45px;
+}
+.sidebar_widget{
+	text-align: center;
+	padding: 2%;
+	margin:40px 20px;
+	background: #facd74;
+	box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.75);
+}
+.sidebar_widget h2{
+	font-size: 21px;
+}
+.sidebar_widget_h2{
+	background: url(images/bg_h3.png) no-repeat;
+    background-size: 100% 100%;
+    min-width: 99%;
+    min-height: 77px;
+    margin-bottom: -36px;
+    padding: 12px 10%;
+    position: relative;
+    right: 10%;
+    bottom: 45px;
+    font-size: 15px;
+}
+.widget_categories ul{
+	padding-left: 0px;
+	list-style-type: none;
+	text-decoration: none;
+}
+.widget_categories ul li a{
+	text-decoration: none;
+	color:#000000;
+	font-size: 20px;
+}
+.widget_categories ul li{
+	margin: 15px;
+
+}
+
+/* Навигация по страницам */
+.wp-pagenavi{
+	font-size: 25px;
+	text-decoration: none;
+	
+}
+.wp-pagenavi .pages{
+	display: none;
+}
+.wp-pagenavi .previouspostslink{
+	background-color: #FFFFFF;
+	text-decoration: none;
+	border: solid 1px #33CCCC;
+	border-radius: 8px;
+	text-align: center;
+	float: left;
+	min-width:50px;
+	margin:5px;
+	padding: 3px 7px;
+}
+.wp-pagenavi .nextpostslink{
+	background-color: #FFFFFF;
+	text-decoration: none;
+	border: solid 1px #33CCCC;
+	border-radius: 8px;
+	text-align: center;
+	float: left;
+	min-width:50px;
+	margin:5px;
+	padding: 3px 7px;
+}
+.wp-pagenavi .page{					/*номера страниц*/
+	background-color: #FFFFFF;
+	text-decoration: none;
+	border: solid 1px #33CCCC;
+	border-radius: 8px;
+	text-align: center;
+	float: left;
+	min-width:20px;
+	margin:5px;
+	padding: 3px 7px;
+}
+.wp-pagenavi .current{				/*Текущая страница*/
+	background-color: #DDEAFA;
+	text-decoration: none;
+	border: solid 1px #33CCCC;
+	border-radius: 8px;
+	text-align: center;
+	float: left;
+	min-width:20px;
+	margin:5px;
+	padding: 3px 7px;
+}
+
+/* =Comments
+-------------------------------------------------------------- */
+
+.comments-area{
+	margin-left: 20px;
+	/*background-color: rgba(0,0,0,0.05);
+	padding: 5px;
+	border-radius:5px;*/
+}
+.comments-area h2{
+	margin-left: 20px;
+	font-size: 15px;
+}
+.comments-area h2 span{
+	font-size: 25px;
+}
+.comment-respond{
+	margin-left: 20px;
+}
+.comment-list .comment{
+	background-color: rgba(0,0,0,0.05);
+	padding: 5px;
+	margin: 5px;
+	border-radius:5px;
+}
+.comment-list{
+	list-style-type: none;
+}
+.comment-list ol{
+	list-style-type: none;
+}
+
+#comments {
+	clear: both;
+}
+#comments .navigation {
+	padding: 0 0 18px 0;
+}
+h3#comments-title,
+h3#reply-title {
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+h3#comments-title {
+	padding: 24px 0;
+}
+.commentlist {
+	list-style: none;
+	margin: 0;
+}
+.commentlist li.comment {
+	border-bottom: 1px solid #e7e7e7;
+	line-height: 24px;
+	margin: 0 0 24px 0;
+	padding: 0 0 0 56px;
+	position: relative;
+}
+.commentlist li:last-child {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+#comments .comment-body ul,
+#comments .comment-body ol {
+	margin-bottom: 18px;
+}
+#comments .comment-body p:last-child {
+	margin-bottom: 6px;
+}
+#comments .comment-body blockquote p:last-child {
+	margin-bottom: 24px;
+}
+.commentlist ol {
+	list-style: decimal;
+}
+.commentlist .avatar {
+	position: absolute;
+	top: 4px;
+	left: 0;
+}
+.comment-author {
+	font-size: 20px;
+}
+.comment-author cite {
+	color: #000;
+	font-style: normal;
+	font-weight: bold;
+
+}
+.comment-author .says {
+	font-style: italic;
+}
+.comment-meta {
+	font-size: 12px;
+	margin: 0 0 18px 0;
+}
+.comment-meta a:link,
+.comment-meta a:visited {
+	color: #777;
+	text-decoration: none;
+}
+.comment-meta a:active,
+.comment-meta a:hover {
+	color: #ff4b33;
+}
+.commentlist .even {
+}
+.commentlist .bypostauthor {
+}
+.reply {
+	font-size: 12px;
+	padding: 0 0 24px 0;
+}
+.reply a,
+a.comment-edit-link {
+	color: #777;
+}
+.reply a:hover,
+a.comment-edit-link:hover {
+	color: #ff4b33;
+}
+.commentlist .children {
+	list-style: none;
+	margin: 0;
+}
+.commentlist .children li {
+	border: none;
+	margin: 0;
+}
+.nopassword,
+.nocomments {
+	display: none;
+}
+#comments .pingback {
+	border-bottom: 1px solid #e7e7e7;
+	margin-bottom: 18px;
+	padding-bottom: 18px;
+}
+.commentlist li.comment+li.pingback {
+	margin-top: -6px;
+}
+#comments .pingback p {
+	color: #777;
+	display: block;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0;
+}
+#comments .pingback .url {
+	font-size: 13px;
+	font-style: italic;
+
+}
+.comment-form input{
+	outline: none;
+	padding-left: 5px;
+    height: 23px;
+    border-radius: 6px;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+textarea{
+	outline: none;
+	padding-left: 5px;
+    border-radius: 6px;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	background-color: #989284;
+	min-height: 100px;
+	width:100%;
+	clear: both;
+}
+.menu-btn{
+		cursor: pointer;
+	    height: 7px;
+	    width: 36px;
+	    border-top: 7px solid #868686;
+	    border-bottom: 22px double #868686;
+	    margin: 6px 0 0 24px;
+	    float: left;
+    	display: none;
+    	}
+
+.autorr p{
+	line-height: 5px;
+}
+/*Стили сгенерировал wordpress*/
+.textwidget div[style*=height]{
+	margin: auto;
+}
+
+@media screen and (max-width:1024px){
+    .head .phone {
+    margin-left: 40px;
+    width: 333px;
+    font-size: 15px;
+	}
+	.phone .t{
+		margin-left: 87px;
+		display: block;
+	}
+	.tele{
+		float: left;
+	}
+}
+
+@media screen and (max-width:800px){
+	.zag_h1 h1{
+    	font-size: 27px;
+	}
+	.search {
+	width: 300px;
+	clear: both;
+    float: none;
+    margin-left: 171px;
+	}
+	.phone_span{
+		font-size: 17px;
+		margin: 10px;
+	}
+	.head .phone {
+    margin-left: 45px;
+	}
+	.search label {
+		font-size: 17px;
+	}
+	.sidebar {
+	width: 35%;
+    max-width: 35%;
+    min-width: 35%;
+	}
+	.content {
+    max-width: 64%;
+	}
+	.sidebar_widget h2{
+		font-size: 17px;
+	}
+}
+@media screen and (max-width:540px){
+	.head .logo {
+    margin-left: 38%;
+	}
+	.head .phone {
+    margin-left: 19%;
+	}
+	.search {
+    margin-left: 21%;
+	}
+	.menu-btn{
+    	display: block;
+    }
+    .menu_head li{
+	    color: #5c4e72;
+	    font-weight: bolder;
+	    height: 45px;
+	    font-size: 20px;
+	    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.43);
+	    display: none;
+	    padding: 0px 12px;
+	    margin-top: 9px;
+	    width: 93%;
+	    text-align: center ;
+	    clear: both;
+	}
+	.sidebar {
+	max-width: none;
+    width: 100%;
+	float: none;
+	}
+	.content {
+	max-width: none;
+    width: 100%;
+	float: none;
+	}
+
+}
+
+
